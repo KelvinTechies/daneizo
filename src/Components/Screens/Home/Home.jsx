@@ -111,14 +111,20 @@ function Home() {
               <div className="span">
                 <span>Short term</span>{" "}
                 <p>
-                  Hurray You are eligible for up to <span>N500,000.00</span>
+                  Hurray You are eligible for up to <br />
+                  <span>N500,000.00</span>
                 </p>
               </div>
               <div className="pro">
                 <div className="progress"></div>
               </div>
-              <span>N101,000.00</span>
-              <span>Intrest rate 3.5% of N156,000 N165,000.00</span>{" "}
+              <span className="sp">N101,000.00</span>
+              <br />
+              <br />
+              <span className="spp">
+                Intrest rate 3.5% of N156,000{" "}
+                <span className="so">N165,000.00</span>
+              </span>{" "}
               <span>Short Term</span>
             </div>
 

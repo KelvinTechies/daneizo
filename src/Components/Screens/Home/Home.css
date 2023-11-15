@@ -236,9 +236,49 @@ ul {
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
   padding: 1rem;
   border-radius: 10px;
+  width: 40%;
 }
 
 .shrt .span {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.shrt span:nth-child(1) {
+  color: rgb(34, 33, 33);
+}
+
+.shrt p span {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pro {
+  background: linear-gradient(to right, rebeccapurple, rgb(13, 255, 13));
+  border-radius: 20px;
+  height: 20px;
+  position: relative;
+  margin-bottom: 1rem;
+}
+.progress {
+  background: rebeccapurple;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -7px;
+  left: 50px;
+}
+.sp {
+  color: rebeccapurple;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+.spp {
+  background-color: rgb(152, 232, 152);
+}
+.so {
+  color: rgb(19, 228, 19);
 }
