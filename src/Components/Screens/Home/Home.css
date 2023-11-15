@@ -1,0 +1,244 @@
+.home-container {
+  background-color: #e8dae8;
+  background-image: linear-gradient(90deg, #e8dae8 57%, #cbf5c7 100%);
+  /* height: 100vh; */
+}
+ul {
+  list-style: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  background-color: white;
+  padding: 1rem;
+  color: black;
+  font-weight: 600;
+  font-size: 17px;
+  border-radius: 20px;
+  margin: auto;
+  border: none;
+  outline: none;
+}
+
+.divhead {
+  padding-top: 3rem;
+}
+
+.navigate ul {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav button {
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 10px;
+  padding: 0.7rem;
+  width: 120px;
+  border: none;
+  outline: none;
+}
+
+.body-home {
+  margin-top: 5rem;
+}
+.body-home form {
+  background-color: white;
+  width: 450px;
+  border-radius: 30px;
+  padding: 3rem;
+}
+
+.body-home input {
+  display: block;
+  width: 400px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #ddd;
+  font-weight: 700;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.body-home .f1 {
+  text-align: center;
+}
+.body-home .f1 h3 {
+  margin-bottom: 1rem;
+  font-size: 35px;
+  font-weight: 900;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.body-home .f1 p {
+  margin-bottom: 1rem;
+  color: #7b7777;
+  font-weight: 900;
+  font-size: 17px;
+}
+.body-home label {
+  display: block;
+  font-weight: 900;
+}
+.p {
+  color: #7b7777;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.body-home span {
+  color: rebeccapurple;
+}
+
+.body-home .btn button {
+  background-color: rebeccapurple;
+  width: 430px;
+  padding: 1rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 2rem;
+}
+.dnt {
+  text-align: center;
+  font-weight: 900;
+  margin-top: 2rem;
+}
+.body-f {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sec_section {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.glass_bg {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 60%;
+  padding: 2rem;
+}
+
+.first_prt {
+  width: 40%;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  padding: 5rem;
+  font-size: 17px;
+  color: white;
+}
+
+.first_prt h2 {
+  font-size: 40px;
+  margin-bottom: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.first_prt p {
+  margin-bottom: 2rem;
+  width: 50%;
+  font-size: 19px;
+}
+
+.i_div {
+  width: 30px;
+  height: 30px;
+  background-color: forestgreen;
+  border-radius: 50%;
+}
+.glass_bg ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.loans {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.btns button {
+  width: 150px;
+  border-radius: 30px;
+  padding: 0.7rem;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.btns button:nth-child(1) {
+  background: forestgreen;
+}
+
+.btns button:nth-child(2) {
+  background: #a6a2a2;
+}
+.btns button:nth-child(3) {
+  background: #a6a2a2;
+}
+
+.btns button:nth-child(4) {
+  background: #a6a2a2;
+}
+
+.sec_prt {
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  width: 50%;
+}
+.bth_prt {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn2 {
+  width: 20%;
+  margin: auto;
+  margin-top: 30%;
+}
+.btn2 button {
+  width: 100%;
+  background-color: rebeccapurple;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 10px;
+}
+.shrt {
+  position: absolute;
+  left: 40%;
+  background-color: white;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.shrt .span {
+  display: flex;
+  flex-wrap: wrap;
+}
