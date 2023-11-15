@@ -125,7 +125,7 @@ function Home() {
                 Intrest rate 3.5% of N156,000{" "}
                 <span className="so">N165,000.00</span>
               </span>{" "}
-              <span>Short Term</span>
+              <span>Short term</span>
             </div>
 
             <div className="sec_prt">
