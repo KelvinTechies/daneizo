@@ -124,19 +124,7 @@ ul {
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
-.glass_bg {
-  /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.27);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  width: 60%;
-  padding: 2rem;
-}
-
-.first_prt {
+.sec_section .first_prt {
   width: 40%;
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
   padding: 5rem;
@@ -218,7 +206,7 @@ ul {
 .btn2 {
   width: 20%;
   margin: auto;
-  margin-top: 30%;
+  margin-top: 40%;
 }
 .btn2 button {
   width: 100%;
@@ -235,9 +223,9 @@ ul {
   background-color: white;
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
   padding: 1rem;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 40%;
-  top: 1200px;
+  top: 1250px;
 }
 
 .shrt .span {
@@ -248,12 +236,12 @@ ul {
 
 .shrt span:nth-child(1) {
   color: rgb(34, 33, 33);
+  height: 100%;
 }
-
-.shrt p span {
-  font-size: 50px;
-  font-weight: 900;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+#sdr {
+  background: #ddd;
+  padding: 0.4rem;
+  box-shadow: 2px 6px 16px -5px rgba(0, 0, 0, 0.75);
 }
 
 .pro {
@@ -261,7 +249,7 @@ ul {
   border-radius: 20px;
   height: 20px;
   position: relative;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .progress {
   background: rebeccapurple;
@@ -274,12 +262,286 @@ ul {
 }
 .sp {
   color: rebeccapurple;
-  font-weight: 800;
+  font-weight: 900;
   margin-bottom: 1rem;
+  background: whitesmoke;
+  box-shadow: 2px 6px 16px -4px rgba(0, 0, 0, 0.75);
+  padding: 0.5rem;
+  border-radius: 20%;
 }
 .spp {
-  background-color: rgb(152, 232, 152);
+  background-color: rgb(181, 250, 181);
+  padding: 0.4rem;
+  color: rgb(22, 21, 21);
+  font-weight: 700;
 }
-.so {
+#so {
   color: rgb(19, 228, 19);
+  font-weight: 900;
+}
+.rt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.spt {
+  box-shadow: 2px 6px 16px -5px rgba(0, 0, 0, 0.75);
+  padding: 0.7rem;
+  color: black;
+  font-weight: 700;
+}
+.pa {
+  color: rgb(44, 42, 42);
+  font-weight: 900;
+}
+
+.shrt .se {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 1rem;
+}
+
+.bt {
+  position: relative;
+  margin-top: 12rem;
+}
+
+.ig {
+  z-index: 1;
+  position: absolute;
+  top: -9rem;
+  left: 27rem;
+}
+.glass_bg {
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 80%;
+  z-index: 2;
+  padding: 2rem;
+}
+
+.third_sec .first_sec {
+  padding: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.sub1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.sub1 h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.sub1 p {
+  width: 85%;
+  font-size: 19px;
+  font-weight: 500;
+}
+.btn3 button {
+  background: rebeccapurple;
+  background-color: rebeccapurple;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 19px;
+}
+.myImg {
+  position: absolute;
+  top: -8rem;
+}
+
+.first_wan {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+}
+.have {
+  width: 30%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+}
+
+.have p {
+  color: rgb(20, 18, 18);
+  font-family: 800;
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+.have h1 {
+  margin-bottom: 2rem;
+}
+.btn4 button {
+  color: rgb(27, 232, 27);
+  border-radius: 10px;
+  padding: 0.7rem;
+  outline: 3px solid rgb(27, 232, 27);
+  border: none;
+  background-color: white;
+  font-weight: 900;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1291px) {
+  .container {
+    width: 100%;
+  }
+  .sub1 {
+    margin-bottom: 2rem;
+  }
+  .first_wan {
+    display: flex;
+    gap: 15rem;
+    align-items: center;
+  }
+  .first_prt {
+    width: 40%;
+  }
+  .sec_prt {
+    width: 47.6%;
+  }
+
+  .ig {
+    z-index: 1;
+    position: absolute;
+    left: 17rem;
+  }
+  .first_prt p {
+    width: 100%;
+    font-size: 19px;
+  }
+  .bth_prt {
+    position: relative;
+  }
+  .shrt {
+    position: absolute;
+    left: 47%;
+    background-color: white;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 20px;
+    width: 40%;
+    top: 3rem;
+  }
+  .btn2 {
+    width: 40%;
+    margin: auto;
+    margin-top: 60%;
+    transition: all 2s linear;
+  }
+  .body-f {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  .imgGal {
+    width: 50%;
+  }
+  .imgGal .img {
+    width: 100%;
+    height: 100%;
+  }
+  .imgGal img img {
+    width: 100%;
+    height: 100%;
+  }
+  .body-home {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 1187px) {
+  .container {
+    width: 1200px;
+  }
+  .sub1 {
+    margin-bottom: 2rem;
+  }
+  .loans {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+  }
+  .btns {
+    display: flex;
+    gap: 4rem;
+  }
+  .first_wan {
+    display: flex;
+    gap: 15rem;
+    align-items: center;
+  }
+  .first_prt {
+    width: 40%;
+  }
+  .sec_prt {
+    width: 46.6%;
+  }
+
+  .ig {
+    z-index: 1;
+    position: absolute;
+    left: 17rem;
+  }
+  .first_prt p {
+    width: 100%;
+    font-size: 19px;
+  }
+  .bth_prt {
+    position: relative;
+  }
+  .shrt {
+    position: absolute;
+    left: 47%;
+    background-color: white;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 20px;
+    width: 40%;
+    top: 3rem;
+  }
+  .btn2 {
+    width: 40%;
+    margin: auto;
+    margin-top: 70%;
+    transition: all 2s linear;
+  }
+  .body-f {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+  }
+  .imgGal {
+    width: 50%;
+  }
+  .imgGal .img {
+    width: 100%;
+    height: 100%;
+  }
+  .imgGal img img {
+    width: 100%;
+    height: 100%;
+  }
+  .body-home {
+    margin-top: 2rem;
+  }
 }
